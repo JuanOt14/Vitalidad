@@ -1,0 +1,24 @@
+.header-mobile{
+    padding: 1rem;
+    color: var(--trendy-pink-600);
+    background: var(--trendy-pink-50);
+    box-shadow: 0px 5px 5px var(--trendy-pink-200);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-btn{
+    background: var(--white);
+    color: var(--purple);
+    border: 1px solid var(--purple);
+    border-radius: 5px;
+    padding: 0.1rem 0.1rem;
+}
+.header-btn:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background: var(--purple);
+    color: var(--white);
+}

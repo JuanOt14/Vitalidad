@@ -1,0 +1,241 @@
+:root {
+  --trendy-pink-50  : #faf8fc;  
+  --trendy-pink-100 : #f4f0f7;
+  --trendy-pink-200 : #ebe3f1;
+  --trendy-pink-300 : #dccce6;
+  --trendy-pink-400 : #c4abd5;
+  --trendy-pink-500 : #ad8ac2;
+  --trendy-pink-600 : #8d62a7;
+  --trendy-pink-700 : #805a96;
+  --trendy-pink-800 : #6c4d7c;
+  --trendy-pink-900 : #583f64;
+  --trendy-pink-950 : #3a2546;
+
+  --white: #fffffe;
+  --black: #2b2c34;
+  --purple: #6246ea;
+  --gray: #d1d1e9;
+  --red: #e45858;
+}
+
+.root{
+  background-color: var(--white);
+}
+
+/*---------------------------------Sections----------------------------------*/
+.main{
+  padding: 4rem 1rem;
+  text-align: start;
+  color: var(--black);
+  p{
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+  button{
+    margin-top: 2rem;
+  }
+}
+
+.msg{
+  padding: 2rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h3{
+    color: var(--purple);
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+  p{
+    margin-top: 1rem;
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 40rem;
+  }
+  svg{
+    margin-top: 0.5rem;
+    color: var(--purple);
+  }
+}
+
+.working-with{
+  padding: 2rem 2rem;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h3{
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  b{
+    color: var(--purple);
+    font-weight: 700;
+  }
+  p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 40rem;
+  }
+}
+
+.we-together{
+  padding: 2rem 2rem;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h3{
+    margin-bottom: 1rem;
+    color: var(--trendy-pink-600);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  h4{
+    align-self: center;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  h5{
+    margin-top: 1rem;
+    color: var(--purple);
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 40rem;
+  }
+  img{
+    align-self: center;
+  }
+}
+
+.benefits{
+  padding: 2rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h3{
+    color: var(--purple);
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  p{
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 40rem;
+  }
+  button{
+    margin-top: 2rem;
+  }
+}
+
+.benefits-elements{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.benefits-item{
+  background: var(--red);
+  color: var(--white);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 15rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  h4{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
+.products{
+  padding: 2rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h3{
+    color: var(--purple);
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  h5{
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  p{
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 40rem;
+  }
+}
+
+.join-us{
+  padding: 2rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h3{
+    color: var(--purple);
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 40rem;
+  }
+  button{
+    margin-top: 2rem;
+  }
+}
+
+/*-------------------------------Elements-----------------------------------*/
+.btn-primary{
+  color: var(--white);
+  background-color: var(--purple);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem 1.5rem;
+  border-radius: 4rem;
+  border: none;
+}
+.btn-primary:hover{
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: var(--white);
+  color: var(--purple);
+  border: 2px solid var(--purple);
+}
+.btn-primary:active{
+  background-color: var(--gray);
+}
