@@ -1,12 +1,17 @@
 .header-mobile{
     padding: 1rem;
+    height: 5rem;
     color: var(--trendy-pink-600);
     background: var(--trendy-pink-50);
     box-shadow: 0px 5px 5px var(--trendy-pink-200);
+    overflow: hidden;
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 2rem;
+    img{
+        height: 10rem;
+    }
 }
 
 .header-btn{
@@ -21,4 +26,8 @@
     transition: 0.3s;
     background: var(--purple);
     color: var(--white);
+}
+
+.header-side{
+    display: none;
 }

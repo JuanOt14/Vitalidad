@@ -2,6 +2,7 @@ import './App.css'
 
 //import components
 import Header from './components/Header'
+import Footer from './components/Footer'
 import Product from './components/Product'
 
 //import dependencies
@@ -10,6 +11,7 @@ import Product from './components/Product'
 import productsData from './products.json'
 
 //import assets
+import logo from './assets/logo.png'
 import { Heart, Money, Health, Trophy } from 'akar-icons'
 
 function App() {
@@ -32,7 +34,7 @@ function App() {
         <p>Aquí encontrarás productos que nutrirán tu cuerpo, detonarán la expresión de tu personalidad y te inspirarán a transformar tu entorno.</p>
       </section>
       <section className='we-together'>
-        <h3>Vitalidad</h3>
+        <img src={logo} alt="" className='we-together-logo'/>
         <img src="" alt="ELIZABETH GARCIA y LILIANA GARCIA" />
         <h4>Elizabeth García y Liliana García</h4>
         <h5>DECÍDETE Y CONVIERTETE EN EMPRESARIO OMNILIFE</h5>
@@ -84,6 +86,7 @@ function App() {
         <button className='btn-primary'>Contactanos</button>
         <p>Estamos a tu entera disposición para cualquier duda o aclaración a través de WhatsApp y Redes Sociales</p>
       </section>
+      <Footer />
     </div>
   )
 }

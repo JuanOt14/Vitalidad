@@ -4,7 +4,7 @@ import './Header.css'
 import { useState } from 'react'
 
 //import assets
-//import logo from '../../public/assets/logo.png'
+import logo from '../assets/logo.png'
 import { ThreeLineHorizontal } from 'akar-icons'
 
 export default function Header () {
@@ -20,9 +20,9 @@ export default function Header () {
                 <button className='header-btn' onClick={changeMenuState}>
                     <ThreeLineHorizontal strokeWidth={2} size={36} />
                 </button>
-                <h1>Vitalidad</h1>
+                <img src={logo} alt="" />
                 <div className='header-side'>
-
+                    <h1>Vitalidad</h1>
                 </div>
             </div>
         </header>

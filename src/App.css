@@ -121,6 +121,10 @@
   }
 }
 
+.we-together-logo{
+  width: 100%;
+}
+
 .benefits{
   padding: 2rem 2rem;
   text-align: center;
@@ -194,6 +198,15 @@
     font-weight: 400;
     max-width: 40rem;
   }
+}
+
+.products-container{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .join-us{
