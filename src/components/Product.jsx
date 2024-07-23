@@ -15,8 +15,8 @@ export default function Product({ title, description, price, img }) {
         <article className='product-body'>
             <div className="product-image">
                 {
-                    Object.keys(itemObj).map((imagePath, index) => {
-                        const image = images[`/src/assets/images/${img}`].default
+                    Object.keys(itemObj).map((item, index) => {
+                        const image = itemObj[item].default
                         return <img key={index} src={image} alt={title}/>
                     })
                 }
@@ -24,7 +24,7 @@ export default function Product({ title, description, price, img }) {
             <div className="product-info">
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <p>{`$${price}`}</p>
+                <p><b>{`$${price}`}</b></p>
             </div>
         </article>
     )
