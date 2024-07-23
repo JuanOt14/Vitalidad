@@ -1,0 +1,31 @@
+.footer{
+    background: var(--purple);
+    color: var(--white);
+    padding: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info{
+    text-align: start;
+}
+
+.footer-image{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+
+.footer-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    svg:hover{
+        cursor: pointer;
+    }
+}
