@@ -18,7 +18,7 @@ function App() {
   return (
     <div className='root'>
       <Header />
-      <section className='main'>
+      <section className='main' id='inicio'>
         <p>¿Tienes un sueño?</p>
         <p>Queremos ser el puente</p>
         <p>entre tu sueño y la realidad</p>
@@ -29,11 +29,11 @@ function App() {
         <p>Nosotros creemos que todos los sueños son importantes y queremos ser el puente para que los alcances</p>
         <Heart strokeWidth={1} size={72} />
       </section>
-      <section className='working-with'>
+      <section className='working-with' >
         <h3>Trabajamos con <b>OMNILIFE</b> y <b>SEYTÚ</b></h3> 
         <p>Aquí encontrarás productos que nutrirán tu cuerpo, detonarán la expresión de tu personalidad y te inspirarán a transformar tu entorno.</p>
       </section>
-      <section className='we-together'>
+      <section className='we-together' id='nosotros'>
         <img src={logo} alt="" className='we-together-logo'/>
         <img src="" alt="ELIZABETH GARCIA y LILIANA GARCIA" />
         <h4>Elizabeth García y Liliana García</h4>
@@ -43,7 +43,7 @@ function App() {
           Te ofrecemos el mejor asesoramiento sobre los productos <b>OMNILIFE</b> y la mejor guía para impulsar tu negocio, además de otros beneficios al formar parte de esta gran empresa.
         </p>
       </section>
-      <section className='benefits'>
+      <section className='benefits' id='beneficios'>
         <h3>Únete y llega tan alto como tú quieras</h3>
         <p>Incrementa tus oportunidades económicas con tu Negocio Independiente OMNILIFE.</p>
         <div className='benefits-elements'>
@@ -66,7 +66,7 @@ function App() {
         </div>
         <button className='btn-primary'>QUIERO UNIRME</button>
       </section>
-      <section className='products'>
+      <section className='products' id='productos'>
         <h3>Productos</h3>
         <div className='products-container'>
           {
@@ -80,7 +80,7 @@ function App() {
         <h5>Cuída la salud y la de tu familia.</h5>
         <p>OMNILIFE es la empresa de mayor crecimiento en el mundo de los suplementos nutricionales, OMNILIFE te ofrece la oportunidad de mejorar tu salud, ¿deseas comprar productos ahora?</p>
       </section>
-      <section className='join-us'>
+      <section className='join-us' id='unete'>
         <h3>Únete a nosotros</h3>
         <p>Estás a un paso de convertirte en un exitoso empresario</p>
         <button className='btn-primary'>Contactanos</button>

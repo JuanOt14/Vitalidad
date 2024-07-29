@@ -9,7 +9,8 @@
     justify-content: start;
     align-items: center;
     gap: 2rem;
-
+    position: fixed;
+    width: 100%;
     img {
         height: 10rem;
     }

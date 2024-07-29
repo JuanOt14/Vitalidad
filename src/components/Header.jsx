@@ -27,9 +27,11 @@ export default function Header () {
                     <button className='closebtn' onClick={changeMenuState}>&times;</button>
                     <h1>Vitalidad</h1>
                     <ul>
-                        <li><a href='#'>Home</a></li>
-                        <li><a href='#'>About</a></li>
-                        <li><a href='#'>Contact</a></li>
+                        <li><a href='#inicio'>Inicio</a></li>
+                        <li><a href='#nosotros'>Nosotros</a></li>
+                        <li><a href='#beneficios'>Beneficios</a></li>
+                        <li><a href='#productos'>Productos</a></li>
+                        <li><a href='#unete'>Unete</a></li>
                     </ul>
                 </div>
             </div>

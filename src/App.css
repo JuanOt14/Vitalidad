@@ -24,7 +24,7 @@
 
 /*---------------------------------Sections----------------------------------*/
 .main{
-  padding: 4rem 1rem;
+  padding: 8rem 1rem 4rem 1rem;
   text-align: start;
   color: var(--black);
   p{
