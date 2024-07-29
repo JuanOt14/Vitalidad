@@ -14,6 +14,8 @@ export default function Header () {
         setMenu(!menuState)
     }
 
+    const menuClassName = menuState ? 'menu-active' : ''
+
     return (
         <header className="header-root">
             <div className="header-mobile">
@@ -21,8 +23,14 @@ export default function Header () {
                     <ThreeLineHorizontal strokeWidth={2} size={36} />
                 </button>
                 <img src={logo} alt="" />
-                <div className='header-side'>
+                <div className={`header-side ${menuClassName}`}>
+                    <button className='closebtn' onClick={changeMenuState}>&times;</button>
                     <h1>Vitalidad</h1>
+                    <ul>
+                        <li><a href='#'>Home</a></li>
+                        <li><a href='#'>About</a></li>
+                        <li><a href='#'>Contact</a></li>
+                    </ul>
                 </div>
             </div>
         </header>

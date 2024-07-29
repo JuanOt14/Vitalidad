@@ -1,4 +1,4 @@
-.header-mobile{
+.header-mobile {
     padding: 1rem;
     height: 5rem;
     color: var(--trendy-pink-600);
@@ -9,25 +9,70 @@
     justify-content: start;
     align-items: center;
     gap: 2rem;
-    img{
+
+    img {
         height: 10rem;
     }
 }
 
-.header-btn{
+.header-btn {
     background: var(--white);
     color: var(--purple);
     border: 1px solid var(--purple);
     border-radius: 5px;
     padding: 0.1rem 0.1rem;
 }
-.header-btn:hover{
+
+.header-btn:hover {
     cursor: pointer;
     transition: 0.3s;
     background: var(--purple);
     color: var(--white);
 }
 
-.header-side{
-    display: none;
+.header-side {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--purple);
+    color: var(--white);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    h1{
+        color: var(--white);
+        font-size: 36px;
+        margin: 1rem 0 2rem 1rem;
+    }
+}
+
+.header-side.menu-active {
+    transition: .5s;
+    width: 12rem;
+}
+
+.header-side .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.header-side a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--white);
+    display: block;
+    transition: 0.3s;
+}
+
+.header-side a:hover{
+    transition: .3s;
+    background: var(--white);
+    color: var(--purple);
 }
