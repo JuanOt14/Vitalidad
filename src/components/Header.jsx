@@ -19,10 +19,10 @@ export default function Header () {
     return (
         <header className="header-root">
             <div className="header-mobile">
-                <button className='header-btn' onClick={changeMenuState}>
-                    <ThreeLineHorizontal strokeWidth={2} size={36} />
+                <button className='header-side-btn' onClick={changeMenuState}>
+                    <ThreeLineHorizontal strokeWidth={2} size={48} />
                 </button>
-                <img src={logo} alt="" />
+                <img src={logo} alt="Vitalidad" />
                 <div className={`header-side ${menuClassName}`}>
                     <button className='closebtn' onClick={changeMenuState}>&times;</button>
                     <h1>Vitalidad</h1>
