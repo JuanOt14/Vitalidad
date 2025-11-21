@@ -6,25 +6,32 @@ const images = import.meta.glob('/src/assets/images/*.{jpg,jpeg,png,svg}', { eag
 
 export default function Product({ title, description, price, img }) {
 
-    let imageFunc = images[`/src/assets/images/${img}`]
-    let itemObj = {
-        imgFunc : imageFunc
-    }
+    // Obtener la imagen directamente
+    const imageModule = images[`/src/assets/images/${img}`];
+    const imageSrc = imageModule?.default;
+
+    // Formatear el precio
+    const formattedPrice = new Intl.NumberFormat('es-CO', {
+        style: 'currency',
+        currency: 'COP',
+        minimumFractionDigits: 0
+    }).format(price);
 
     return (
         <article className='product-body'>
             <div className="product-image">
-                {
-                    Object.keys(itemObj).map((item, index) => {
-                        const image = itemObj[item].default
-                        return <img key={index} src={image} alt={title}/>
-                    })
-                }
+                {imageSrc ? (
+                    <img src={imageSrc} alt={title} loading="lazy" />
+                ) : (
+                    <div className="product-image-placeholder">Imagen no disponible</div>
+                )}
             </div>
             <div className="product-info">
                 <h3>{title}</h3>
-                <p>{description}</p>
-                <p><b>{`$${price}`}</b></p>
+                <p className="product-description">{description}</p>
+                <p className="product-price">
+                    <strong>{formattedPrice}</strong>
+                </p>
             </div>
         </article>
     )
@@ -36,3 +43,10 @@ Product.propTypes = {
     price: PropTypes.number,
     img: PropTypes.node
 }
+
+Product.defaultProps = {
+    title: 'Producto sin título',
+    description: 'Sin descripción',
+    price: 0,
+    img: 'default.jpg'
+};
