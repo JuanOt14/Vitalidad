@@ -1,0 +1,233 @@
+/*---------------------------------Sections----------------------------------*/
+.home-main {
+    padding: calc(10dvh + 2rem) 1rem 4rem 1rem;
+    text-align: start;
+    color: var(--black);
+
+    p {
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 3rem;
+    }
+
+    button {
+        margin-top: 2rem;
+    }
+}
+
+.home-msg {
+    padding: 2rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        color: var(--purple);
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 3rem;
+    }
+
+    p {
+        margin-top: 1rem;
+        text-align: start;
+        font-size: 1.5rem;
+        font-weight: 400;
+        max-width: 40rem;
+    }
+
+    svg {
+        margin-top: 0.5rem;
+        color: var(--purple);
+    }
+}
+
+.home-working-with {
+    padding: 2rem 2rem;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    b {
+        color: var(--purple);
+        font-weight: 700;
+    }
+
+    p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        max-width: 40rem;
+    }
+}
+
+.home-we-together {
+    padding: 2rem 2rem;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        margin-bottom: 1rem;
+        color: var(--trendy-pink-600);
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    h4 {
+        align-self: center;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    h5 {
+        margin-top: 1rem;
+        color: var(--purple);
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 400;
+        max-width: 40rem;
+    }
+}
+
+.home-we-together-logo {
+    width: min(100%, 25rem);
+    margin-bottom: 2rem;
+    img{
+        width: 100%;
+    }
+}
+
+.home-benefits {
+    padding: 2rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        color: var(--purple);
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    p {
+        text-align: start;
+        font-size: 1.5rem;
+        font-weight: 400;
+        max-width: 40rem;
+    }
+
+    button {
+        margin-top: 2rem;
+    }
+}
+
+.home-benefits-elements {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.home-benefits-item {
+    background: var(--red);
+    color: var(--white);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 15rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    h4 {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+
+.home-products {
+    padding: 2rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        color: var(--purple);
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    h5 {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    p {
+        text-align: start;
+        font-size: 1.5rem;
+        font-weight: 400;
+        max-width: 40rem;
+    }
+}
+
+.home-products-container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.home-join-us {
+    padding: 2rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        color: var(--purple);
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        max-width: 40rem;
+    }
+
+    button {
+        margin-top: 2rem;
+    }
+}
+
