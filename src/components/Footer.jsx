@@ -1,7 +1,7 @@
 import './Footer.css'
 
 //import assets
-import logo from '../assets/logo.png'
+import logo from '../assets/Logo-Vitalidad_Blanco.png'
 import { FacebookFill, InstagramFill, WhatsappFill } from 'akar-icons'
 
 export default function Footer () {
