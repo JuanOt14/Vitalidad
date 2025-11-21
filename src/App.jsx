@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 
 //import pages
 import { Home } from './pages/Home'
+import { Products } from './pages/Products'
 
 export function App() {
   return (
@@ -17,6 +18,7 @@ export function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/productos' element={<Products />} />
           <Route path='*' element={<Navigate to='/' />} />
         </Routes>
         <Footer />
