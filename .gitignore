@@ -22,3 +22,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Otros archivos
+.env
+.env.local
+.env.*.local
+.cache
+*.pdf
+*.docx
+*.xlsx
+Catalogo OMNILIFE 2025.pdf
+Catalogo SEYTÚ 2025.pdf
+Listado Productos.docx
+Logo-Vitalidad_Blanco.png
+Logo-Vitalidad_Mesa de trabajo 1.png
+

@@ -1,0 +1,24 @@
+.products-root{
+    padding-top: calc(10dvh + 2rem);
+}
+
+.products-body{
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    text-align: center;
+    h2{
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        color: var(--trendy-pink-600);
+    }
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 1rem;
+}

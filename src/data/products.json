@@ -1,23 +1,555 @@
 [
     {
-        "id" : 1,
-        "title" : "Product 1",
-        "description" : "Lorem Ipsum",
-        "price" : 100,
-        "img" : "default.jpg"
+        "id": 2,
+        "title": "Agua blu 1.5L – 600ml",
+        "description": "Agua Blu es agua mineral natural de manantial que es fundamental para mantener una correcta hidratación del cuerpo. La hidratación adecuada es esencial para que el organismo funcione bien, ya que ayuda a regular la temperatura corporal, facilitar la absorción de nutrientes y eliminar toxinas. Tomar suficiente agua como Agua Blu contribuye a mantener la energía, la concentración y el bienestar general. Se recomienda consumir al menos 2 litros diarios para apoyar todas estas funciones vitales. ",
+        "price": 0,
+        "img": "default.jpg"
     },
     {
-        "id" : 2,
-        "title" : "Product 2",
-        "description" : "Lorem Ipsum",
-        "price" : 100,
-        "img" : "default2.jpg"
+        "id": 3,
+        "title": "Aloe Beta 200ml – 960ml",
+        "description": "Aloe Beta está diseñado para apoyar principalmente tu sistema digestivo. Gracias al gel de aloe vera, que tiene propiedades antiinflamatorias, ayuda a calmar y proteger la mucosa del estómago y los intestinos, favoreciendo un mejor bienestar digestivo. Además, la fibra prebiótica que contiene contribuye a la salud de tu flora intestinal, promoviendo un equilibrio adecuado de bacterias benéficas que facilitan la digestión y absorción de nutrientes. La vitamina E presente en Aloe Beta ayuda a nutrir y proteger las células de tu cuerpo, actuando como antioxidante para mantenerlas saludables. ",
+        "price": 0,
+        "img": "default.jpg"
     },
     {
-        "id" : 3,
-        "title" : "Product 3",
-        "description" : "Lorem Ipsum",
-        "price" : 100,
-        "img" : "default.jpg"
+        "id": 4,
+        "title": "Aqtúa Supreme",
+        "description": "El producto Aqtúa Supreme es un suplemento dietario en polvo con sabor mandarina que contiene coenzima Q10, L-carnitina, magnesio y D-ribosa. La coenzima Q10 tiene propiedades antioxidantes que pueden favorecer la salud del sistema cardiovascular. Este suplemento ayuda a mantener la energía y el buen funcionamiento del corazón y los músculos, gracias a sus ingredientes que apoyan el metabolismo energético. Se disuelve en un vaso de agua y se puede consumir junto con los alimentos. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Biocros Supreme",
+        "description": "Biocros Supreme. Este suplemento en polvo está formulado con cafeína, glicina, vitaminas del complejo B, antioxidantes y minerales. La cafeína ayuda a estimular el sistema nervioso para aumentar la energía y el estado de alerta. Las vitaminas del complejo B son esenciales para convertir los alimentos en energía, apoyando el metabolismo y la función muscular. La glicina es un aminoácido que contribuye a la síntesis de proteínas y al funcionamiento del sistema nervioso. Además, los antioxidantes presentes ayudan a proteger las células del daño causado por los radicales libres. Todo esto hace que Biocros Supreme sea una excelente opción para quienes buscan un impulso energético y mejorar su rendimiento físico. Se disuelve fácilmente en agua y se recomienda tomarlo en la mañana para empezar el día con energía. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Cafelife Plus",
+        "description": "Cafelife Plus. Este suplemento en polvo combina café colombiano con extracto de café verde, conocido por sus propiedades para favorecer el metabolismo. Además, contiene cromo, un mineral que ayuda en los procesos metabólicos, y fibra prebiótica que contribuye a la salud digestiva. Está endulzado con estevia natural, por lo que no contiene azúcar, lo que lo hace una opción saludable para quienes buscan cuidar su alimentación. Se presenta en caja con 30 sobres de 150 gramos. Se recomienda disolver en un vaso de agua, frío o caliente, según prefieras, antes de tus comidas para apoyar tu metabolismo. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Cognos",
+        "description": "El producto Cognos Evolución es un suplemento dietario en polvo con sabor lima-limón. Contiene colina y vitaminas del complejo B, que ayudan en las funciones cognitivas y en el mantenimiento del sistema nervioso. Además, incluye aminoácidos, antioxidantes y minerales. Cada sobre tiene 12 calorías y no contiene azúcar, ya que está endulzado con fruto del monje y estevia de origen natural. Se recomienda disolverlo en agua y consumirlo en la mañana o en cualquier momento del día para apoyar la función cerebral y el bienestar general. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Dolce Vita Supreme",
+        "description": "El producto Dolce Vita Supreme es un suplemento dietario en polvo con sabor toronja que contiene extracto de café verde, el cual puede ser beneficioso para apoyar el metabolismo. No contiene azúcar y está endulzado con estevia natural, lo que lo hace una opción saludable. Se presenta en caja con 30 sobres de 150 gramos. Se recomienda disolverlo en agua y consumirlo antes de las comidas para apoyar el metabolismo. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Ego Frutas del Bosque",
+        "description": "El producto Ego Frutas del Bosque Evolución es un suplemento dietario en bebida con sabor a frutas del bosque. Contiene extracto de regaliz, que puede ayudar a disminuir la sensación de pesadez después de las comidas y contribuir al bienestar digestivo. Esta bebida tiene solo 10 calorías por lata y está endulzada con fruto del monje y estevia de origen natural. Se recomienda consumirla lista para beber, fría o a temperatura ambiente, en cualquier momento del día. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Ego 10 - 200ml",
+        "description": "El producto Ego 10 es una bebida energizante con sabor tropical que contiene cafeína proveniente del extracto de café verde. Está diseñada para contribuir en los procesos relacionados con la obtención de energía y el rendimiento físico. No contiene azúcar ni calorías, y está endulzada con fruto del monje y estevia de origen natural. Se recomienda tomarla lista para beber, preferentemente en la mañana para darle un extra a tu día. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Ego Life Supreme",
+        "description": "El producto Ego Life Supreme es una mezcla en polvo sabor piña que contiene electrolitos como sodio, potasio, magnesio y calcio, además de vitaminas B2, B5 y cromo. Estos ingredientes pueden favorecer el balance de hidratación y ayudar a reponer sales pérdidas durante la actividad física. Se recomienda disolverlo en agua y consumirlo a cualquier hora del día, antes, durante o después de hacer ejercicio para mantener una buena hidratación y energía. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Ego Plant",
+        "description": "El producto Ego Plant es una bebida carbonatada con sabor herbal que contiene vitaminas D, E y B12. Esta bebida ayuda en varios procesos del organismo, incluyendo el mantenimiento de los líquidos corporales y favorece al sistema urinario. No tiene azúcar ni calorías y está endulzada con fruto del monje y estevia de origen natural. Se puede disfrutar fría o a temperatura ambiente en cualquier momento del día. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Estop Plus",
+        "description": "El producto Estop Plus es un suplemento dietario en polvo con sabor a nuez vainilla que contiene almendra en polvo, fitoesteroles y extracto de cera de caña. Estos ingredientes pueden favorecer el equilibrio y mantenimiento del sistema cardiovascular. Se disuelve en un vaso de agua y se puede disfrutar en cualquier momento del día. Además, contiene vitamina E y niacina, y está endulzado con estevia de origen natural. Estop Plus está formulado para apoyar el sistema cardiovascular, ayudando a mantener el equilibrio y la salud del corazón gracias a sus fitoesteroles y extracto de cera de caña. Además, contiene almendra en polvo que aporta nutrientes beneficiosos y vitamina E, un antioxidante que contribuye a proteger las células del daño oxidativo. El niacina incluida puede favorecer el metabolismo energético y la salud general. Recuerda que es un suplemento dietario, por lo que es importante acompañar su consumo con una alimentación balanceada y hábitos saludables. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Fiber’N Plus Supreme",
+        "description": "El producto Fiber’N Plus Supreme es una mezcla en polvo sabor durazno que contiene una combinación especial de fibras, probióticos y prebióticos. Está diseñado para favorecer el tránsito intestinal y mejorar la salud digestiva. Además, aporta vitaminas C, D y minerales, y está endulzado con estevia de origen natural. Se recomienda disolver en abundantes líquidos y consumir antes de las comidas para mejores resultados. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Flu-Y Bote",
+        "description": "El producto Flu-Y Bote es un suplemento dietario en cápsulas que contiene magnesio, necesario para el buen funcionamiento del sistema nervioso y que puede favorecer el estado de ánimo. También incluye extracto de naranja dulce y fibra prebiótica. Se recomienda tomar 2 cápsulas al día, ya sea en la mañana o en la noche. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Homo Plus",
+        "description": "El producto Homo Plus es una mezcla en polvo sabor mandarina que contiene arándano en polvo y licopeno, ingredientes que pueden favorecer el mantenimiento del sistema urinario, endocrino y reproductor masculino. Además, incluye extracto de semilla de uva, antioxidantes y minerales, y está endulzado con estevia de origen natural. Se recomienda disolver en un vaso de agua y disfrutar en cualquier momento. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Omnilife F",
+        "description": "El producto FEM PLUS de Omnilife es una mezcla en polvo sabor durazno que contiene fitoestrógenos como lúpulo, extracto de soya y extracto de semilla de uva, que pueden favorecer el equilibrio hormonal y reproductor femenino. También incluye ácido fólico, vitaminas y minerales, y está endulzado con estevia. Se recomienda disolver en agua y consumir en cualquier momento. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 18,
+        "title": "Omnilife FX Manzana – Naranja",
+        "description": "El producto FX Manzana o Naranja Evolución de Omnilife es una bebida carbonatada sabor manzana y Naranja, adicionada con vitaminas C y E, sin azúcar y sin calorías. Está endulzada con fruto del monje y estevia de origen natural. Se recomienda disfrutarla fría, ideal para acompañar con alimentos. Es una opción refrescante y saludable para añadir vitaminas a tu día. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Omnilife Kolina",
+        "description": "El producto Omnilife Kolina es una bebida carbonatada sabor toronja que contiene extractos de piña y coco, los cuales pueden favorecer el mantenimiento digestivo gracias a sus propiedades antiinflamatorias y antibacterianas. No contiene azúcares ni calorías y está endulzada con fruto del monje y estevia de origen natural. Está lista para beber y puedes disfrutarla fría o a temperatura ambiente en cualquier momento. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Omnilife Pump Supreme",
+        "description": "El producto Omnilife Pump Supreme es una mezcla en polvo sabor cookies & cream que contiene 20 gramos de proteína vegetal, carbohidratos, fibra, L-carnitina, vitaminas y minerales. Está endulzado con estevia de origen natural. Este suplemento puede favorecer el sistema muscular y se recomienda disolverlo en un vaso de agua y consumirlo una vez al día después de realizar actividad física. Omnilife Shake Supreme Fresa Silvestre – Cookies & Cream El producto Omnilife Shake Supreme Fresa Silvestre o Cookies & Cream es una mezcla en polvo sabor fresa silvestre y Cookies & Cream que contiene 14 gramos de proteína vegetal, fibra prebiótica, carbohidratos, vitaminas y minerales. Está endulzado con estevia de origen natural. Se recomienda disolverlo en agua, leche vegetal o leche descremada. Puedes agregar una porción de tu fruta favorita y disfrutarlo en la mañana o en la noche. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Omnilife Starb",
+        "description": "El producto que describes corresponde a STARBIEN EVOLUCION de Omnilife. Es un suplemento dietario en polvo con raíz de maca, vitaminas del complejo B, fibra de manzana, antioxidantes y minerales. Tiene sabor a naranja y limón, sin azúcar, endulzado con fruto del monje y estevia. Se recomienda disolver en agua y consumir en la mañana o en cualquier momento del día para aportar energía y bienestar. Presentación disponible: STARBIEN EVOLUCION CAJA C 30 SOBRES 615 GRS. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 22,
+        "title": "Omnilife TMGN Coffee",
+        "description": "El producto TMGN COFFEE CAJA EVOLUCION de Omnilife es una mezcla en polvo con café 100% puro soluble, que incluye una mezcla de cafés (coffea arábica y coffea canephora), cromo y fibra prebiótica. Cada sobre contiene solo 14 calorías, no tiene azúcar y está endulzado con fruto del monje y estevia, endulzantes de origen natural. Se recomienda disolverlo en un vaso de agua y disfrutarlo antes de las comidas, ya sea frío o caliente. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 23,
+        "title": "Omnilife TMGN Coffee de Olla",
+        "description": "El producto TMGN COFFEE DE OLLA EVOLUCION de Omnilife es una mezcla en polvo con sabor a café de olla con canela. Contiene una mezcla de cafés (coffea arábica y coffea canephora), cromo y fibra prebiótica. Cada sobre tiene solo 14 calorías, no contiene azúcar y está endulzado con fruto del monje y estevia. Se recomienda disolver en un vaso de agua y disfrutarlo frío o caliente antes de las comidas. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 24,
+        "title": "Omnilife Vkids",
+        "description": "El producto OMNILIFE VKIDS DOYPACK 400G es ideal para complementar la alimentación en la etapa infantil más importante. Contiene betaglucanos que pueden ayudar al desarrollo del sistema inmunológico. Es una mezcla en polvo con sabor a vainilla que aporta 8 g de proteína, betaglucanos, DHA derivado de alga marina, hierro, fibra prebiótica, probióticos, vitaminas y minerales. Se recomienda disolver dos medidas en un vaso de agua y consumir una o dos veces al día después de los alimentos. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 25,
+        "title": "Omnilife Probiotic Supreme",
+        "description": "El producto OMNILIFE PROBIOTIC CAJA 30 SOBRES S contiene 1 billón de probióticos bacillus coagulans que pueden favorecer el mantenimiento y equilibrio del microbiota intestinal. Es una mezcla en polvo con sabor limón-moras, que incluye probióticos, prebióticos, polifenoles, vitamina B12 y minerales. No contiene azúcares y está endulzado con estevia de origen natural. Se recomienda disolver en un vaso de agua y consumir al iniciar el día o en cualquier momento. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 26,
+        "title": "Omniost",
+        "description": "El producto OMNIOST EVOLUCION de Omnilife contiene minerales como calcio y fósforo, además de vitaminas D y K2, que pueden favorecer el mantenimiento del sistema óseo. Es una mezcla en polvo con sabor a banano, sin azúcar, endulzada con fruto del monje y estevia de origen natural. También incluye antioxidantes, minerales y fibra prebiótica. Se recomienda disolver en un vaso de agua y disfrutar en cualquier momento. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 27,
+        "title": "Omniplus Frutas",
+        "description": "El producto OMNIPLUS FRUTAS EVOLUCION 30 SACH 6 contiene vitaminas, minerales y extractos herbales que pueden contribuir con el mantenimiento del sistema inmunológico. Es un concentrado micelizado para preparar bebida en líquido con sabor a frutas, sin azúcares ni calorías, endulzado con fruto del monje y estevia de origen natural. Se recomienda disolver en un vaso de agua y comenzar el día con Omniplus. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 28,
+        "title": "Omniplus Supreme Naranja",
+        "description": "El producto OMNIPLUS NARAN SUP CAJA 30 SOBRES 6 contiene vitaminas, minerales y extractos herbales que pueden contribuir con el mantenimiento del sistema inmunológico. Es un concentrado micelizado para preparar bebida en líquido sabor naranja, sin azúcares y sin calorías, endulzado con estevia de origen natural. Se recomienda disolver en un vaso de agua y comenzar el día con Omniplus, tu producto estrella. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 29,
+        "title": "Omniviu Supreme",
+        "description": "El producto OMNIVIU SUPREME CAJA C/30 SACHETS 1 contiene luteína y zeaxantina que pueden favorecer el mantenimiento visual. Es una mezcla en polvo sabor moras, con DHA derivado de alga marina, vitamina A y antioxidantes, sin azúcar y endulzada con estevia de origen natural. Se recomienda disolver en un vaso de agua y tomarlo después de tus alimentos. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 30,
+        "title": "One C Mix Plus",
+        "description": "El producto ONE C MIX PLUS CAJA contiene L-glutatión y vitaminas C y E que pueden favorecer el sistema inmunológico y brindar mantenimiento celular antioxidante. Es un suplemento dietario en polvo sabor mango verde, con L-glutatión, cisteína, vitaminas A, C, D, E y K, complejo B y minerales, sin azúcar, endulzado con estevia natural. Se recomienda disolver en un vaso de agua y puede consumirse en cualquier momento del día. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 31,
+        "title": "Power Maker",
+        "description": "El producto POWER MAKER EVOLUCION contiene arginina, que beneficia al sistema muscular y puede ayudar al sistema circulatorio. Es un suplemento dietario en polvo sabor naranja, con 3 gramos de arginina, aminoácidos, vitaminas C, E, B5 y minerales. Tiene 12 calorías por sobre, sin azúcar, endulzado con fruto del monje y estevia. Se recomienda disolver en agua y consumir 1 hora antes de la actividad física o antes de acostarse. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 32,
+        "title": "Super Mix Supreme",
+        "description": "El producto SUPER MIX SUPREME VAINILLA CAJA 510 es ideal para complementar tu alimentación. Contiene DHA derivado de alga marina que puede colaborar con el mantenimiento del sistema inmunológico, nervioso y cardiovascular. Es una mezcla en polvo sabor vainilla, con 6 g de proteína vegetal, DHA, hierro, fibra prebiótica, probióticos, vitaminas y minerales, sin azúcar. Endulzado con estevia de origen natural. Se recomienda disolver en un vaso de agua y consumir después de los alimentos. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 33,
+        "title": "Thermogen Tea Limón Supreme",
+        "description": "El producto THERMOGEN TEA LIMON SUPREME C/30 SA contiene cromo, que puede participar en los procesos del metabolismo. Es un suplemento dietario en polvo sabor limón con cromo y extracto de té soluble negro, sin azúcar. Endulzado con estevia de origen natural. Se recomienda disolver en un vaso de agua y disfrutarlo antes de los alimentos, frío o caliente según prefieras. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 34,
+        "title": "Thermogen Tea Maracuyá Supreme",
+        "description": "El producto THERMOGEN TEA MARACUYA SUPREME 30 SACH es un suplemento dietario en polvo sabor maracuyá. Contiene L-tirosina, un aminoácido que puede participar en las funciones y equilibrio del metabolismo. Además, incluye L-carnitina, extracto de café verde, extracto de té negro y fibra prebiótica, sin azúcar. Está endulzado con estevia de origen natural. Se recomienda disolver en un vaso de agua y disfrutarlo antes de los alimentos, frío o caliente según prefieras. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 35,
+        "title": "Uzo",
+        "description": "El producto UZO EVOLUCION es una mezcla en polvo sabor vainilla francesa que contiene salvado de arroz, selenio, vitamina E, niacina y fibra prebiótica. Puede favorecer y estimular el sistema inmunológico. Está endulzado con fruto del monje y estevia de origen natural, sin azúcar. Se recomienda disolver en un vaso de agua y puedes consumirlo en cualquier momento del día. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 37,
+        "title": "Línea System Luminous-Specialist",
+        "description": "Crema para Manos, Cuello y Escote La Crema para Manos, Cuello y Escote de Omnilife está diseñada para minimizar la apariencia de manchas oscuras causadas por la exposición solar y el envejecimiento. Ayuda a unificar el tono de la piel y previene la aparición de nuevas manchas. Tiene rápida absorción y aporta suavidad y luminosidad en cada aplicación. Para usarla, aplica sobre la piel limpia hasta su total absorción. Puede usarse de día y de noche, y se recomienda reaplicar varias veces durante el día. Recuerda que su uso no sustituye el protector solar, por lo que es importante aplicar FPS50+ después. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 38,
+        "title": "Gel Anti-Manchas",
+        "description": "El Gel Anti-Manchas de Omnilife está diseñado para reducir la apariencia de manchas oscuras causadas por daño solar y acné. Mejora la textura y unifica el tono de la piel, además de aportar protección contra nuevas manchas y luminosidad. Se usa exclusivamente por la noche: aplica sobre piel limpia y seca directamente en las manchas, deja absorber y por la mañana lava el rostro y aplica protector solar. Se recomienda ir aumentando la frecuencia de uso desde 2 veces por semana hasta diario en un mes. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 39,
+        "title": "Línea System Spot-Specialist",
+        "description": "",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 40,
+        "title": "Dermolimpiador Facial Spot Specialist",
+        "description": "El Dermolimpiador Facial Spot Specialist de Omnilife limpia la piel sin secarla ni dejar sensación de tirantez. Ayuda a desobstruir los poros y mantiene la piel libre de impurezas y sebo. Para usarlo, humedece el rostro con agua tibia, aplica el producto en la palma de las manos y frota hasta generar espuma. Masajea suavemente el rostro durante 30 segundos a 1 minuto y enjuaga con abundante agua. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 41,
+        "title": "Gel Localizado Spot Specialist",
+        "description": "El Gel Localizado Spot Specialist de Omnilife está diseñado para disminuir el tamaño y enrojecimiento de los brotes. Ayuda a desobstruir los poros con su uso continuo y evita la acumulación de impurezas, reduciendo la aparición de nuevos brotes. Ingredientes principales incluyen agua, alcohol, ácido salicílico, madecassoside, alantoína y extractos fermentados. Modo de uso: Aplica sobre el rostro limpio y seco en los brotes y zonas con puntos negros. Deja absorber completamente antes de aplicar otro producto. Úsalo día y noche. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 42,
+        "title": "Suero Perfeccionador Spot Specialist",
+        "description": "El Suero Perfeccionador Spot Specialist de Omnilife está formulado para controlar la producción de sebo y mejorar la apariencia de la piel con un acabado mate. Contiene MultiSal™ Sebum Control al 5% y Niacinamida al 4%. Se recomienda aplicar sobre piel limpia y seca una ligera capa y dejar absorber, reaplicando durante el día o la noche según sea necesario para controlar el brillo. Este suero es parte de la línea System Spot-Specialist, diseñada para cuidar pieles mixtas a grasas y reducir imperfecciones y brillo facial. 96% de los usuarios notaron disminución en imperfecciones y 94% mejoría en la apariencia de poros después de 90 días de uso. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 43,
+        "title": "Línea System Time-Specialist",
+        "description": "",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 44,
+        "title": "Crema de Día FPS 30",
+        "description": "La Crema de Día FPS 30 TIME de Omnilife combate los principales signos de la edad, estimula la producción de colágeno y elastina, y tiene propiedades antioxidantes e hidratantes. Además, protege contra los rayos UVA y UVB. Ingredientes destacados incluyen niacinamida, bakuchiol, ácido hialurónico, y extractos naturales como el de romero y girasol. Modo de uso: Aplica sobre rostro y cuello limpio y seco, realizando un suave masaje hasta su total absorción. Se recomienda su uso durante el día. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 45,
+        "title": "Crema para Contorno de Ojos",
+        "description": "La Crema para Contorno de Ojos en Omnilife se presenta principalmente como suero hidratante para esta delicada zona. Suero Contorno de Ojos TIME que mejora líneas finas, arrugas, bolsas y ojeras, brindando firmeza y elasticidad. Se usa día y noche con suaves movimientos del interior al exterior. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 46,
+        "title": "Suero de Noche",
+        "description": "El Suero de Noche de Omnilife, parte de la línea System Time-Specialist, está diseñado para mejorar la apariencia de líneas de expresión, disminuir signos de cansancio e hinchazón, e incrementar la firmeza y elasticidad de la piel. Contiene ingredientes como niacinamida, péptidos e isoflavonas, y retinol. Se recomienda su uso diario en la noche para un efecto reparador y rejuvenecedor. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 47,
+        "title": "Línea System Hair-Specialist",
+        "description": "",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 48,
+        "title": "Loción Capilar Fortificante",
+        "description": "La Loción Capilar Fortificante de Omnilife está diseñada para fortalecer el cabello y ayudar a mejorar su salud general. Aunque no se especifican detalles en la descripción, es un producto enfocado en el cuidado capilar. Modo de uso: Se recomienda seguir las instrucciones específicas del producto para su aplicación. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 49,
+        "title": "Shampoo Fortificante",
+        "description": "El Shampoo Fortificante de Omnilife ayuda a reducir la caída del cabello y fortalece desde la raíz. También recupera el brillo e hidratación del cabello. Modo de uso: Aplica una cantidad considerable en la palma de la mano, lleva al cabello húmedo, masajea suavemente de raíz a puntas, deja actuar unos minutos y enjuaga con abundante agua. Acondicionador con Extractos Herbales de Origen Natural El Acondicionador con Extractos Herbales de Origen Natural brinda acondicionamiento y cuidado diario con una fórmula hidratante, ideal para todo tipo de cabello. Está enriquecido con extracto de Omniplus. Ingredientes principales incluyen extractos de centella asiática, cola nítida, laminaria, ginseng, guaraná, entre otros. Se usa aplicando una pequeña cantidad en el cabello húmedo, masajeando de medios a puntas, dejando actuar unos minutos y enjuagando con abundante agua. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 50,
+        "title": "Bálsamo Labial Omniplus FPS15",
+        "description": "El Bálsamo Labial Omniplus FPS 15 protege los labios de los daños causados por los rayos UVA y UVB, mientras colabora a regenerar e hidratar visiblemente, dejándolos suaves y humectados. Tiene una textura suave, cremosa y nutritiva con aroma a fresa. Entre sus ingredientes destacan cera de abejas, manteca de murumuru, aceite de coco, manteca de karité, filtros solares orgánicos y extractos naturales como ginseng y centella asiática. Para usarlo, aplica suavemente sobre los labios hasta sentirlos hidratados y reaplica cuando sea necesario. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 51,
+        "title": "Corrector Líquido",
+        "description": "El Corrector Líquido de Omnilife ofrece cobertura construible de media a total, es a prueba de agua y tiene una duración de hasta 8 horas. No se agrieta ni se asienta en las líneas de expresión, ideal para cubrir imperfecciones, contornear e iluminar. Está disponible en varios tonos: Fair, Light, Medium, Deep, todos con ingredientes que incluyen aceite de macadamia, manteca de cacao, ácido hialurónico y extractos naturales. Para usarlo, aplica una pequeña cantidad con el aplicador y difumina uniformemente en la zona a corregir. Puedes usarlo antes o después de la base de maquillaje. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 52,
+        "title": "Crema Hidratante de Día FPS20",
+        "description": "La Crema Hidratante de Día FPS20 de Omnilife ayuda a prevenir los primeros signos de envejecimiento, proporciona hidratación equilibrada y protege la piel de la pérdida de agua. Tiene una fórmula ligera de rápida absorción, ideal para uso diario. Para usarla, aplica sobre piel limpia y seca, realizando un ligero masaje con movimientos circulares hasta su total absorción. Se recomienda su uso durante el día. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 53,
+        "title": "Crema Hidratante de Noche",
+        "description": "La Crema Hidratante de Noche de Omnilife restaura la hidratación y nutrición de la piel mientras duermes. Ayuda a retrasar los primeros signos visibles de la edad y mejora la firmeza y elasticidad de la piel. Su textura es sedosa y proporciona hidratación duradera. Para usarla, aplica sobre la piel limpia y seca, realizando movimientos circulares suaves hasta su total absorción. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 54,
+        "title": "Crema Limpiadora Facial",
+        "description": "La Crema Limpiadora Facial de Omnilife limpia profundamente el rostro, eliminando impurezas y maquillaje de manera suave, manteniendo el balance natural de la piel. Se usa con algodón, realizando movimientos circulares en rostro y cuello, tanto de día como de noche. Crema para Mano Coco Vainilla 50gr La Crema Manos Coco Vainilla de Omnilife calma y humecta la piel de las manos con rápida absorción. Ayuda a mantener la elasticidad y firmeza sin dejar sensación grasosa. Para usarla, aplica sobre la piel limpia y seca, dando un ligero masaje hasta su total absorción. Se recomienda usar junto con protector solar corporal FPS50+. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 55,
+        "title": "Crema de Manos Antibacterial",
+        "description": "La Crema de Manos Antibacterial de Omnilife está disponible en varias fragancias como manzana-pera, vainilla y sandía-melón. Estas cremas limpian profundamente las manos sin resecar la piel y brindan excelente humectación, además son 100% libres de alcohol. Para usarla, aplica una cantidad suficiente en las manos y da un ligero masaje hasta su total absorción. Reaplica cuando consideres necesario para hidratar o limpiar. Crema para Manos Frutos Rojos 50gr La Crema Manos Frutos Rojos de Omnilife brinda hidratación y suavidad a las manos, promoviendo elasticidad y firmeza con una textura ligera y de rápida absorción. Se recomienda aplicar sobre la piel limpia y seca, dando un ligero masaje hasta su total absorción. También se sugiere usar junto con protector solar corporal FPS50+ para mejores resultados. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 56,
+        "title": "Delineador Líquido para Ojos Negro",
+        "description": "El Delineador Líquido para Ojos Negro de Omnilife tiene larga duración, es resistente al agua y ofrece un acabado mate con alta adherencia, ideal para climas húmedos y cálidos. Para usarlo, agita antes de abrir, desliza el pincel sobre la base de las pestañas del párpado superior y traza el delineado. Mantén el envase cerrado para conservar el producto. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 57,
+        "title": "Delineador Penliner",
+        "description": "El Delineador para Ojos Penliner de Omnilife ofrece larga duración con fórmula a base de agua, libre de formaldehídos, resistente al agua y de secado rápido. Para usarlo, destapa y desliza suavemente la punta del aplicador sobre las pestañas del párpado superior, detallando el trazo según el grosor deseado. Mantén el penliner hacia abajo y cerrado para evitar que la punta se seque. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 58,
+        "title": "Desmaquillante para Ojos",
+        "description": "El Desmaquillante para Ojos de Omnilife tiene una fórmula ideal para limpiar la delicada zona de los ojos sin irritarla, con un pH adecuado para evitar molestias. Para usarlo, agita antes de aplicar, usa un algodón y realiza movimientos circulares suaves para retirar el maquillaje. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 59,
+        "title": "Esponja para Maquillaje",
+        "description": "La Esponja para Maquillaje de Omnilife es multifuncional, ideal para aplicar texturas líquidas y en polvo. Permite una aplicación homogénea con acabado natural y mínimo desperdicio de producto. Es reutilizable y lavable. Para usarla, toma el producto con la esponja y aplica con suaves golpecitos hasta unificar el maquillaje en la piel. Se recomienda lavar después de cada uso. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 60,
+        "title": "Espuma Limpiadora Facial",
+        "description": "Esta espuma contiene ingredientes naturales que la hacen ideal para una limpieza profunda y diaria del cutis. Ayuda a remover impurezas y deja una intensa sensación de frescura. Es adecuada para todo tipo de piel, proporcionando una limpieza efectiva sin resecar. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 61,
+        "title": "Gel Fijador para el Cabello",
+        "description": "El Gel Fijador para el Cabello de Omnilife es ideal para conservar el peinado todo el día. Es libre de alcohol, no deja residuos y está enriquecido con extracto de Omniplus y extractos de plantas. Modo de uso: Aplica sobre el cabello limpio, húmedo o seco. Coloca la cantidad necesaria en la palma de las manos y distribuye uniformemente para estilizar como desees. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 62,
+        "title": "Gel Crema para Estrías",
+        "description": "El Gel-Crema para Estrías de Omnilife ayuda a atenuar la apariencia de las estrías y a retrasar la aparición de nuevas. Está enriquecido con ingredientes antioxidantes y humectantes que mantienen la piel suave y tiene una consistencia ligera. Modo de uso: Aplica sobre la piel limpia y seca en las zonas con estrías. Da un ligero masaje con movimientos circulares hasta su total absorción. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 63,
+        "title": "Jabón Líquido Corporal Frutos Rojos",
+        "description": "El Jabón Líquido Corporal Frutos Rojos de Omnilife limpia e hidrata la piel, está enriquecido con vitaminas y antioxidantes que le dan una apariencia renovada. Es ideal para uso diario. Modo de uso: Aplica una cantidad suficiente sobre el cuerpo húmedo, masajea suavemente y enjuaga con abundante agua. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 64,
+        "title": "Labial Hidratante FPS15",
+        "description": "Labiales hidratantes con FPS15 que ofrecen textura ultra cremosa, alta pigmentación, efecto satinado y acondicionan e hidratan los labios. Los labiales hidratantes vienen en diferentes tonos: Hot Pink, Sand Nude, Rose Nude, Flame Coral, Sweet Coral, Seytú Red, Flash Red, Candy Red, Icon Violet, todos con FPS15 para protección solar. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 65,
+        "title": "Labial Líquido Mate",
+        "description": "Los Labiales Líquidos Mate de Omnilife ofrecen un acabado mate de larga duración, secado rápido y son resistentes al agua. Además, contienen ingredientes nutritivos y naturales que humectan los labios. Algunos de los tonos disponibles son: Masai, Sahara, Nairobi y 90 S Baby. Modo de uso: Con ayuda del aplicador, coloca el labial siguiendo suavemente la forma de los labios. Deja secar y reaplica si es necesario. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 66,
+        "title": "Lápiz Delineador de Ojos",
+        "description": "Ofrece larga duración, es resistente al agua y tiene acabado mate. Lápiz para Cejas – Brown, Universal El Lápiz para Cejas de Omnilife ofrece cobertura natural con acabado mate y cremoso, además de larga duración. Contiene fibras que brindan volumen y definición, y su fórmula incluye activos que favorecen el crecimiento de las cejas. Modo de uso: Desliza suaves trazos sobre tus cejas hasta lograr la definición y pigmentación deseada. Mantén el lápiz tapado después de usar. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 67,
+        "title": "Loción Corporal Coco Vainilla",
+        "description": "La Loción Corporal Coco Vainilla de Omnilife es un producto vegano que hidrata y protege la piel con una textura ligera y de rápida absorción. Además, su aroma irresistible de coco y vainilla envuelve la piel con suavidad y frescura. Maquillaje Compacto 2 en 1 – Fair, Light Sand, Natural Beige, Warm Beige, Sun Beige, Caramel. El Maquillaje Compacto 2 en 1 de Omnilife tiene una fórmula inteligente que ofrece dos acabados: cremoso, tipo base al humedecer la esponja, o aterciopelado aplicado en seco. Proporciona cobertura media y es resistente al agua. Modo de uso: Aplica sobre el rostro limpio e hidratado. Puedes humedecer la esponja antes de usar para un acabado cremoso. Aplica con movimientos suaves del centro hacia afuera y difumina para unificar. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 68,
+        "title": "Maquillaje Líquido UP+ FPS15",
+        "description": "El Maquillaje Líquido UP+ FPS15 de Omnilife ofrece cobertura construible de media a total con acabado mate. Su fórmula es resistente al agua y de larga duración, enriquecida con activos anti edad y protección solar FPS15. Modo de uso: Aplica sobre rostro limpio e hidratado. Extiende el producto en frente, nariz, mejillas y barbilla. Difumina suavemente con brocha o esponja para un acabado uniforme. Presentaciones disponibles incluyen tonos como Caramel, Fair, Light Sand, Warm Beige y Creamy Natural. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 69,
+        "title": "Mascarilla Facial",
+        "description": "La Mascarilla Facial de Omnilife es un auxiliar para una limpieza profunda que ayuda en el proceso de reparación de la piel. Está enriquecida con ingredientes que hidratan y cuidan tu piel. Modo de uso: Aplica una capa delgada y uniforme sobre la piel limpia y seca, evitando ojos y labios. Deja actuar hasta que seque o máximo 10 minutos. Enjuaga con abundante agua. Se recomienda usar de 1 a 2 veces por semana, preferentemente por la noche. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 70,
+        "title": "Mascarilla Reparadora Capilar",
+        "description": "La Mascarilla Reparadora Capilar de Omnilife acondiciona intensamente el cabello, ayudando a reparar fibras capilares resecas, frágiles y dañadas. Disminuye el frizz y deja el cabello sedoso, manejable y brillante. Modo de uso: Aplica con el cabello limpio, de medios a puntas masajeando suavemente. Deja actuar de 10 a 15 minutos y enjuaga con abundante agua. Se recomienda usar de 1 a 3 veces por semana. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 71,
+        "title": "Micro-Exfoliante Facial",
+        "description": "El Micro-Exfoliante Facial de Omnilife limpia, suaviza y acondiciona la piel. Sus gránulos ayudan a la renovación celular, aportando luminosidad al rostro. Modo de uso: Aplica sobre piel húmeda y masajea con movimientos circulares evitando el contorno de ojos durante 30 segundos a 1 minuto. Enjuaga con agua. Se recomienda usar de 1 a 2 veces por semana, preferentemente por la noche. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 72,
+        "title": "Máscara para Pestañas",
+        "description": "La Máscara para Pestañas de Omnilife es resistente al agua y tiene una fórmula ligera con aceites naturales que fortalecen las pestañas. Proporciona máximo alargamiento y volumen. Modo de uso: Aplica sobre pestañas limpias desde la raíz hacia arriba, con movimientos específicos para cada zona del ojo para un mejor resultado. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 73,
+        "title": "Omniplus Gel Premium",
+        "description": "El Omniplus Gel Premium de Omnilife ayuda a mejorar la elasticidad y flexibilidad de la piel. Brinda hidratación y un aspecto saludable, promoviendo una textura suave y tersa. Modo de uso: Aplica sobre la piel limpia y seca. Extiende con movimientos suaves hasta su total absorción. Puede usarse día y noche y reaplicarse según se necesite. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 74,
+        "title": "Polvo Traslúcido",
+        "description": "El Polvo Traslúcido de Omnilife es un polvo suelto y ligero con acabado luminoso y textura aterciopelada que se adapta a todas las pieles. Ofrece larga duración y es micronizado, ideal para un acabado natural y sin brillo. Modo de uso: Aplica con brocha de precisión en las partes altas del pómulo, punta de nariz y arco de cupido. Difumina para un acabado natural. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 75,
+        "title": "Protector Solar Corporal FPS 50+",
+        "description": "El Protector Solar Corporal FPS 50+ de Omnilife ofrece alta protección contra rayos UVA/UVB con 95% de ingredientes de origen natural. Es resistente al agua, con filtros minerales biodegradables y respetuoso con el océano. Modo de uso: Aplica una cantidad suficiente 20 minutos antes de la exposición solar sobre piel limpia y seca. Extiende suavemente hasta su absorción total. Reaplica cada 3-4 horas o después de nadar. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 76,
+        "title": "Protector Solar Facial FPS 50+",
+        "description": "El Protector Solar Facial FPS 50+ de Omnilife brinda alta protección contra los rayos UVA/UVB. Es libre de fragancia, con sensación de toque seco y filtros minerales biodegradables, además de ser amigable con el océano. Modo de uso: Aplica 20 minutos antes de la exposición solar sobre rostro y cuello limpios. Masajea suavemente hasta su absorción completa. Reaplica cada 3-4 horas durante el día. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 77,
+        "title": "Set Delineador Compacto para Cejas",
+        "description": "El Set Delineador Compacto para Cejas de Omnilife ofrece un acabado definido y con volumen para tus cejas. Tiene una textura extra suave y cremosa, con larga duración y excelente cobertura. Modo de uso: Utiliza la pinza para depilar los vellos no deseados. Delinea la ceja con la sombra del tono adecuado usando el pincel para cejas, mezclando ambos tonos cafés para un acabado natural. Coloca el iluminador bajo la ceja para dar luz a esa zona. Set de Brochas Ojos y Labios El Set de Brochas para Ojos y Labios de Omnilife incluye 5 brochas especializadas, dos de ellas de doble punta para labios y cejas, además de brochas para delineador, sombras y difuminar. Modo de uso: Utiliza cada brocha para aplicar el producto adecuado, ya sea labial, sombras o delineador. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 78,
+        "title": "Set de Brochas Rostro",
+        "description": "El Set de Brochas para Rostro de Omnilife incluye 3 brochas de maquillaje especializadas para polvo suelto, rubor y precisión. Sus cerdas son ultra-suaves para una aplicación cómoda y profesional. Modo de uso: Utiliza cada brocha para aplicar el producto adecuado, como polvo suelto, rubor o iluminador. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 79,
+        "title": "Shampoo Color Protect",
+        "description": "El Shampoo Color Protect de Omnilife está diseñado para ayudar a mantener el color del cabello teñido, brindando protección y poder reparador en las fibras capilares. Modo de uso: Aplica una cantidad considerable en la palma de la mano, lleva al cabello húmedo, masajea suavemente de raíz a puntas, deja actuar unos minutos y enjuaga con abundante agua. Shampoo con Extractos Herbales de Origen Natural El Shampoo con Extractos Herbales de Origen Natural de Omnilife está formulado para brindar suavidad, vitalidad e hidratación al cabello. Es ideal para todo tipo de cabello y proporciona un brillo intenso. Está enriquecido con extracto de Omniplus, que aporta beneficios naturales. Modo de uso: Aplica una cantidad considerable en la palma de la mano y luego lleva el producto al cabello previamente húmedo. Masajea suavemente desde la raíz hasta las puntas, deja actuar unos minutos y enjuaga con abundante agua. Shampoo de Cuidado Especial para Cabello Débil El Shampoo de Cuidado Especial para Cabello Débil de Omnilife está enriquecido con biotina, extracto de guaraná y proteína hidrolizada, que ayudan a fortalecer el cabello, estimular su recuperación y brindar hidratación y acondicionamiento. Modo de uso: Aplica una cantidad considerable en la palma de la mano, lleva al cabello húmedo, masajea suavemente de raíz a puntas, deja actuar unos minutos y enjuaga con abundante agua. Suero Facial de Hidratación Profunda con Aloe Vera El Suero Facial de Hidratación Profunda con Aloe Vera de Omnilife está diseñado para balancear la hidratación natural de la piel, siendo refrescante y revitalizante. Es ideal para todo tipo de piel, ayudando a reducir finas líneas de expresión causadas por la resequedad. Está enriquecido con péptidos y ácido hialurónico, que brindan elasticidad y firmeza a la piel. Se recomienda aplicar sobre rostro limpio y seco con suaves movimientos circulares hasta su total absorción, tanto de día como de noche. Suero para Contorno de Ojos de Hidratación Profunda con Aloe Vera Proporciona hidratación, firmeza y ayuda a reducir líneas de expresión. Contiene ingredientes como aloe vera, péptidos, proteína de soya y extracto de pepino. Se aplica con movimientos circulares con la ayuda de una esfera roll-on, del interior al exterior del contorno. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 80,
+        "title": "Tinte Permanente sin Amoniaco",
+        "description": "El Tinte Permanente sin Amoniaco de Omnilife es una fórmula de última generación que tiñe el cabello sin dañarlo. Contiene queratina hidrolizada y bisabolol, y es 100% libre de amoníaco. Este tinte ayuda a fortalecer el cabello, devolviéndole elasticidad y resistencia, y ofrece un color intenso y radiante por más tiempo. Se recomienda aplicar en cabello seco, desenredado y sin lavar. Se divide la cabellera en partes, se mezcla el contenido del tubo con el activador, se aplica desde las raíces hasta las puntas, se deja actuar 30 minutos y se enjuaga con abundante agua. Presentaciones disponibles incluyen tonos como Rubio Extra Claro 9/00, Rubio Claro 7/100, Moka 6/34, Rojo 6/66, Castaño Claro, Castaño Oscuro y Negro Natural. ",
+        "price": 0,
+        "img": "default.jpg"
+    },
+    {
+        "id": 81,
+        "title": "Tónico Hidratante",
+        "description": "El Tónico Hidratante de Omnilife, parte de la línea SEYTU, es un producto vegano y dermatológicamente probado que ayuda a balancear la hidratación natural de la piel. Es refrescante y revitalizante, ideal para todo tipo de piel. Sus ingredientes incluyen aloe vera, pepino y hamamelis, que aportan frescura y suavidad. Modo de uso: Aplicar después de la limpieza, rociar a 20 cm de distancia sobre rostro y cuello. Se recomienda su uso día y noche para mejores resultados. ",
+        "price": 0,
+        "img": "default.jpg"
     }
 ]

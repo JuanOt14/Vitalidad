@@ -1,5 +1,8 @@
 import './Home.css';
 
+//import dependencies
+import { useMemo } from 'react';
+
 //import components
 import Product from '../components/Product';
 
@@ -11,6 +14,12 @@ import logo from '../assets/logo.png'
 import productsData from '../data/products.json';
 
 export function Home() {
+
+    const randomThree = useMemo(() => {
+        return getRandomProducts(productsData, 3);
+    }, [productsData]);
+
+
     return (
         <div className='home-root'>
             <section className='home-main' id='inicio'>
@@ -67,7 +76,7 @@ export function Home() {
                 <h3>Productos</h3>
                 <div className='home-products-container'>
                     {
-                        productsData.map((item) => {
+                        randomThree.map((item) => {
                             return (
                                 <Product key={item.id} title={item.title} description={item.description} price={item.price} img={item.img} />
                             )
@@ -87,3 +96,8 @@ export function Home() {
     )
 }
 
+const getRandomProducts = (items, count) => {
+    return [...items] // copiamos para no mutar el original
+        .sort(() => Math.random() - 0.5)
+        .slice(0, count);
+};
